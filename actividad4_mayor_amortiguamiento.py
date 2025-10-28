@@ -95,7 +95,7 @@ if archivo:
             print(f"\nDesviación estándar de residuales: {std_residuales:.6f} V")
             
             # ======== GRÁFICAS MEJORADAS ========
-            fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8))
+            fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6))
             fig.set_facecolor("white")
             
             # Gráfica 1: Ajuste en el rango 6-18s

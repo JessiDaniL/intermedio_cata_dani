@@ -93,7 +93,7 @@ if archivo:
         std_residuales = np.std(resid)
         print(f"\nDesviación estándar de residuales: {std_residuales:.6f} V")
 
-        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 7), sharex=True)
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6), sharex=True)
         fig.set_facecolor("white")
 
         ax1.scatter(x, y, color = 'black', s=30, alpha=0.7, label='Datos experimentales', edgecolors='black', linewidth=0.5)
