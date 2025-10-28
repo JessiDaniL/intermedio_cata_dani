@@ -99,7 +99,7 @@ if archivo:
         ax1.scatter(x, y, color = 'black', s=30, alpha=0.7, label='Datos experimentales', edgecolors='black', linewidth=0.5)
         ax1.plot(x, y_fit, color = '#67E8F4', linewidth=2.5, label=f'Ajuste: $V_0 (V) + V e^{{-{B:.4f}(s⁻¹)t}} \cos({W:.4f}(rad/s)t + {C:.4f} (rad)$')
         ax1.set_ylabel("Voltaje Pico a Pico (V)", fontsize = 12)
-        ax1.set_title("Menor amortiguamiento magnético", fontsize=14, fontweight='bold')
+        ax1.set_title("Amortiguamiento magnético intermedio", fontsize=14, fontweight='bold')
         ax1.legend(fontsize=10)
         ax1.grid(True, alpha=0.3)
 
